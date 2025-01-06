@@ -7,7 +7,7 @@ This project uses Docker and Docker Compose to run both the frontend and backend
 - [Docker](https://docs.docker.com/get-docker/)
 
 ## Project Structure
-
+```
 .
 ├── frontend/           # React/TypeScript frontend
 │   ├── Dockerfile
@@ -22,11 +22,12 @@ This project uses Docker and Docker Compose to run both the frontend and backend
 ├── docker-compose.yml
 ├── .gitignore
 └── README.md
+```
 
 ## Quick Start
 
 1. Start all services: 
-``` 
+```
 docker-compose up -d --build
 ```
 
